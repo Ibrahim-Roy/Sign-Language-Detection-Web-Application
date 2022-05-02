@@ -37,7 +37,7 @@ delaySlider.addEventListener("change", changeDelay);
 
 // Fetch the model
 var model = undefined;
-model_url = "https://raw.githubusercontent.com/Ibrahim-Roy/Sign-Language-Finger-Spelling-Detection/main/model/model.json";
+model_url = "https://raw.githubusercontent.com/Ibrahim-Roy/Sign-Language-Detection-Web-Application/main/model/model.json";
 
 // Load the model
 tf.loadGraphModel(model_url).then(function(loadedModel) {
